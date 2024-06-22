@@ -1,0 +1,62 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile {
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    width: 200px;
+    height: 300px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mutual {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+}
+
+.add-button {
+    margin-left: 4px;
+    background-color: rgb(73, 131, 238);
+    border-radius: 3px;
+    width: 110px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 8px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.mutual-photo {
+    width: 35px;
+    border-radius: 50px;
+    margin-left: 4px;
+}

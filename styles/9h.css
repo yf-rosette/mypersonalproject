@@ -1,0 +1,41 @@
+div {
+    text-align: center;
+}
+
+.google-logo{
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.google-search {
+    border: none;
+    width: 500px;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.google-search:focus {
+    outline: none;
+}
+
+.search-button, .lucky-button {
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.lucky-button {
+margin-left: 8px;
+}

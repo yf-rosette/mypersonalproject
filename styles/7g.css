@@ -1,0 +1,46 @@
+.card {
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    width: 520px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.text-box {
+    border: none;
+    vertical-align: middle;
+    width: 300px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text-box:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(29, 155, 240);
+    vertical-align: middle;
+    font: 19px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}

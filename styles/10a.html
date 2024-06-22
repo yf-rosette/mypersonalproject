@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Layout technique</title>
+    <style>
+        .profile-info {
+            display: inline-block;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            line-height: 13px;
+            font-family: Roboto, Arial;
+        }
+
+        .follow-button {
+            display: inline-block;
+        }
+
+        .profile-picture {
+            width: 70px;
+            border-radius: 50px;
+            margin-right: 12px;
+        }
+
+        .profile-name {
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .profile-desc {
+            font-size: 15px;
+            color: rgb(96, 96, 96);
+        }
+
+        .popularity {
+            color: rgb(96, 96, 96);
+            font-size: 14px;
+        }
+
+        .follow-button {
+            margin-left: 100px;
+            background-color: rgb(72, 154, 235);
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: Roboto, Arial;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            vertical-align: top;
+            margin-top: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="profile-picture" src="thumbnails/keyng.png" alt="KeyNG">
+        <div class="profile-info">
+            <p class="profile-name">KeyNG</p>
+            <p class="profile-desc">chinese rapper</p>
+            <p class="popularity">Popular</p>
+        </div>
+            <button class="follow-button">Follow</button>
+    </div>
+
+</body>
+</html>
